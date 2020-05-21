@@ -32,7 +32,7 @@ android {
     compileSdkVersion 28
     buildToolsVersion "29.0.0"
     defaultConfig {
-        applicationId "com.azuresamples.msalandroidkotlinapp"
+        applicationId "com.azuresamples.msalandroidkotlinapp.intune"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
