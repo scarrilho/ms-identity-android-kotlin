@@ -1,17 +1,13 @@
 {
-  "client_id" : "0984a7b6-bc13-4141-8b0d-8f767e136bb7",
+  "client_id" : "2df40904-8f3e-419d-be91-23a39fda271b",
   "authorization_user_agent" : "DEFAULT",
-  "redirect_uri" : "msauth://com.azuresamples.msalandroidkotlinapp/1wIqXSqBj7w%2Bh11ZifsnqwgyKrY%3D",
+  "redirect_uri" : "msauth://com.azuresamples.msalandroidkotlinapp.intune/1wIqXSqBj7w%2Bh11ZifsnqwgyKrY%3D",
   "account_mode" : "SINGLE",
   "broker_redirect_uri_registered": true,
-  "shared_device_mode_supported": true,
   "authorities" : [
     {
       "type": "AAD",
-      "audience": {
-        "type": "AzureADandPersonalMicrosoftAccount",
-        "tenant_id": "common"
-      }
+      "authority_url": "https://login.microsoftonline.com/common"
     }
   ]
 }
