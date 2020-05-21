@@ -43,8 +43,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         navigationView.setNavigationItemSelectedListener(this)
 
         //Set default fragment
-        navigationView.setCheckedItem(R.id.nav_single_account)
-        setCurrentFragment(AppFragment.SingleAccount)
+/*        navigationView.setCheckedItem(R.id.nav_single_account)
+        setCurrentFragment(AppFragment.SingleAccount)*/
+        navigationView.setCheckedItem(R.id.nav_multiple_account)
+        setCurrentFragment(AppFragment.MultipleAccount)
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
